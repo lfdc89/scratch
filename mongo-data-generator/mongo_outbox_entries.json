@@ -1,0 +1,161 @@
+[ {
+  "_id" : {
+    "$oid" : "68765a92b83489c9700309af"
+  },
+  "idRichiedente" : "35e38d3d-a23a-4189-88af-cfc0aaf3c848",
+  "tipoRichiedente" : "SUPPORTO_INGRESSO",
+  "nomeDocumento" : {
+    "nome" : "IT10208127768_54N10.xml",
+    "tipologia" : "FA",
+    "hash" : "66b6aeeb9c98da3382a30625b750adbbfc6cfd1e"
+  },
+  "idDoc" : {
+    "storage" : "ECS",
+    "id" : "atmos-ecs/ecsrm1_scambio_svi/30206511-d642-48e9-83f6-e699fece5618-1a0b7f22-a33c-49ea-b944-f8dad96a4fe5",
+    "dimensione" : 1751
+  }
+}, {
+  "_id" : {
+    "$oid" : "68765a92b83489c9700309b0"
+  },
+  "idRichiedente" : "fd515ffd-582f-4644-938a-e317d0705520",
+  "tipoRichiedente" : "SUPPORTO_INGRESSO",
+  "nomeDocumento" : {
+    "nome" : "IT10244503063_54N10.xml",
+    "tipologia" : "NC",
+    "hash" : "855ef2124e7abfa46a443866ea9c8dec2b0a7cc5"
+  },
+  "idDoc" : {
+    "storage" : "ECS",
+    "id" : "atmos-ecs/ecsrm1_scambio_svi/40e513f8-d177-4941-bd95-3a5886a7c155-e9431207-9a4a-4192-a4ea-3c0ed4982b9d",
+    "dimensione" : 1244
+  }
+}, {
+  "_id" : {
+    "$oid" : "68765a92b83489c9700309b1"
+  },
+  "idRichiedente" : "613dda08-bfee-4309-b2b6-43d6aee4357e",
+  "tipoRichiedente" : "SUPPORTO_INGRESSO",
+  "nomeDocumento" : {
+    "nome" : "IT10089227351_54N10.xml",
+    "tipologia" : "NC",
+    "hash" : "ae210c1dba8d7032f5bd472ad8cdf9ea18e8146d"
+  },
+  "idDoc" : {
+    "storage" : "ECS",
+    "id" : "atmos-ecs/ecsrm1_scambio_svi/5cbfdca4-11f5-4083-9694-66e13e578586-245f0773-3eaa-422a-bfff-8194fb8e2634",
+    "dimensione" : 8971
+  }
+}, {
+  "_id" : {
+    "$oid" : "68765a92b83489c9700309b2"
+  },
+  "idRichiedente" : "f1ddfb29-3cc4-476b-9861-1043932cf6b5",
+  "tipoRichiedente" : "SUPPORTO_INGRESSO",
+  "nomeDocumento" : {
+    "nome" : "IT10245039847_54N10.xml",
+    "tipologia" : "FA",
+    "hash" : "8a5d9e2480f39dafddbbb2d9393e6fb09b967552"
+  },
+  "idDoc" : {
+    "storage" : "ECS",
+    "id" : "atmos-ecs/ecsrm1_scambio_svi/8be8e786-2547-4d3f-af56-853825e4e93e-7b05cb69-ae2f-4de2-933c-9187992889e1",
+    "dimensione" : 659
+  }
+}, {
+  "_id" : {
+    "$oid" : "68765a92b83489c9700309b3"
+  },
+  "idRichiedente" : "e3397ae3-f51c-4c58-b207-8cfab1a98b54",
+  "tipoRichiedente" : "SUPPORTO_INGRESSO",
+  "nomeDocumento" : {
+    "nome" : "IT10801419373_54N10.xml",
+    "tipologia" : "NC",
+    "hash" : "f5670b602786895e5bf4321671fee8f262c249a2"
+  },
+  "idDoc" : {
+    "storage" : "ECS",
+    "id" : "atmos-ecs/ecsrm1_scambio_svi/f91569be-15a8-40cc-8d0f-65099a44fe4f-af6e32fe-17ef-4e2d-b061-46c0394579cf",
+    "dimensione" : 9942
+  }
+}, {
+  "_id" : {
+    "$oid" : "68765a92b83489c9700309b4"
+  },
+  "idRichiedente" : "521fdeb9-8d03-4f68-a093-95975ea9b159",
+  "tipoRichiedente" : "SUPPORTO_INGRESSO",
+  "nomeDocumento" : {
+    "nome" : "IT10872024740_54N10.xml",
+    "tipologia" : "NC",
+    "hash" : "83924f85a005fa4c26a0275c8e52d59efa6d70b4"
+  },
+  "idDoc" : {
+    "storage" : "ECS",
+    "id" : "atmos-ecs/ecsrm1_scambio_svi/593e75d1-d0ef-454c-8bbb-62b6a25a8569-adbf01be-1867-4715-85d3-45c74a5a50c2",
+    "dimensione" : 884
+  }
+}, {
+  "_id" : {
+    "$oid" : "68765a92b83489c9700309b5"
+  },
+  "idRichiedente" : "7c1cebd9-4ee4-46fd-89be-fb0d9501affa",
+  "tipoRichiedente" : "SUPPORTO_INGRESSO",
+  "nomeDocumento" : {
+    "nome" : "IT10618786241_54N10.xml",
+    "tipologia" : "FA",
+    "hash" : "c81d0c5e97aef77247b534084ba51bfaa79cb4a6"
+  },
+  "idDoc" : {
+    "storage" : "ECS",
+    "id" : "atmos-ecs/ecsrm1_scambio_svi/9ec0bfc0-3196-42fc-abf8-7dc1f733fcaf-f1e3b227-3791-4235-83cd-b5dc1018fce0",
+    "dimensione" : 3823
+  }
+}, {
+  "_id" : {
+    "$oid" : "68765a92b83489c9700309b6"
+  },
+  "idRichiedente" : "ecdee86f-9157-4607-895e-9b5e101a7ef6",
+  "tipoRichiedente" : "SUPPORTO_INGRESSO",
+  "nomeDocumento" : {
+    "nome" : "IT10610532426_54N10.xml",
+    "tipologia" : "FA",
+    "hash" : "4759ded12e13188bb9b315e50f0d2930b539aaa1"
+  },
+  "idDoc" : {
+    "storage" : "ECS",
+    "id" : "atmos-ecs/ecsrm1_scambio_svi/76c85acd-4ad7-4f96-9b3b-a20c88563051-197f711f-51a8-4013-be6f-54280fcf4d77",
+    "dimensione" : 2280
+  }
+}, {
+  "_id" : {
+    "$oid" : "68765a92b83489c9700309b7"
+  },
+  "idRichiedente" : "4444e2a2-3f0b-43e0-905e-78ae7b34afb3",
+  "tipoRichiedente" : "SUPPORTO_INGRESSO",
+  "nomeDocumento" : {
+    "nome" : "IT10359692229_54N10.xml",
+    "tipologia" : "FA",
+    "hash" : "b98fdabae47098e7d451247edf102261cd29a1c2"
+  },
+  "idDoc" : {
+    "storage" : "ECS",
+    "id" : "atmos-ecs/ecsrm1_scambio_svi/6f3e8e0a-efed-4a6b-95fe-45ef6dbf8654-20e463e7-9088-47ce-a954-d46e40318bb8",
+    "dimensione" : 8876
+  }
+}, {
+  "_id" : {
+    "$oid" : "68765a92b83489c9700309b8"
+  },
+  "idRichiedente" : "5dfea017-de24-4f5b-ac57-7a50a8d99a80",
+  "tipoRichiedente" : "SUPPORTO_INGRESSO",
+  "nomeDocumento" : {
+    "nome" : "IT10590729042_54N10.xml",
+    "tipologia" : "DDT",
+    "hash" : "68a14a220f787504a574191414e8ac6b197c656a"
+  },
+  "idDoc" : {
+    "storage" : "ECS",
+    "id" : "atmos-ecs/ecsrm1_scambio_svi/436343f2-9737-41a2-b170-ba715382499b-db65a8ea-1465-4ccc-8f3e-d11ee09d0a36",
+    "dimensione" : 5743
+  }
+} ]
