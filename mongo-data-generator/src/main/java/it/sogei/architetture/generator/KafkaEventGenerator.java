@@ -20,11 +20,13 @@ public class KafkaEventGenerator {
 
 
     private static KafkaEventModel.Headers generateHeader(String outboxId) {
+    private static KafkaEventModel.Headers generateHeader(String outboxId) {
         KafkaEventModel.Headers header = new KafkaEventModel.Headers();
         header.setTraceparent(generateTraceparent());
         header.setId(new Random().nextInt(1000)); // oppure UUID.randomUUID().toString()
         header.setType("DocumentoSalvato");
         header.setAggregateType("GESTORE_DOCUMENTI");
+        header.setOutboxId(outboxId);
         header.setOutboxId(outboxId);
         return header;
     }

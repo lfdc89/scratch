@@ -20,6 +20,12 @@ public class OutboxEntryModel {
     private NomeDocumento nomeDocumento;
     private IdDoc idDoc;
 
+    public OutboxEntryModel() {}
+    
+    public OutboxEntryModel(String tiporichiedString) {
+        this.tipoRichiedente = tiporichiedString;
+    }
+
     @Data
     public static class NomeDocumento {
         private String nome;
