@@ -1,251 +1,161 @@
 [ {
   "headers" : {
-    "traceparent" : "00-b973e2b7f7ca475abd6ea0967117c358-f63dbecf9ba048c7-01",
-    "id" : 914,
+    "traceparent" : "00-25342ef728594207be6b571622e85e5c-046c969e0b0c4a85-01",
+    "id" : 593,
     "type" : "DocumentoSalvato",
-    "aggregateType" : "GESTORE_DOCUMENTI"
+    "aggregateType" : "GESTORE_DOCUMENTI",
+    "outbox-id" : "68776a7aa53c55ca5e59ebb0"
   },
   "value" : {
-    "_id" : {
-      "$oid" : "68765a92b83489c9700309af"
-    },
-    "idRichiedente" : "35e38d3d-a23a-4189-88af-cfc0aaf3c848",
-    "tipoRichiedente" : "SUPPORTO_INGRESSO",
-    "nomeDocumento" : {
-      "nome" : "IT10208127768_54N10.xml",
-      "tipologia" : "FA",
-      "hash" : "66b6aeeb9c98da3382a30625b750adbbfc6cfd1e"
-    },
-    "idDoc" : {
-      "storage" : "ECS",
-      "id" : "atmos-ecs/ecsrm1_scambio_svi/30206511-d642-48e9-83f6-e699fece5618-1a0b7f22-a33c-49ea-b944-f8dad96a4fe5",
-      "dimensione" : 1751
-    }
+    "_id" : null,
+    "idRichiedente" : null,
+    "tipoRichiedente" : "Placeholder-1",
+    "nomeDocumento" : null,
+    "idDoc" : null
   },
-  "key" : "cdfa503e-1c05-4f9d-91fb-c465d49b93f2"
+  "key" : "c67878ca-ca70-45bf-9135-ef8e8b8bf88d"
 }, {
   "headers" : {
-    "traceparent" : "00-c406e7ac1839441ea067c3ca39d95327-54c74ced6f964574-01",
-    "id" : 797,
+    "traceparent" : "00-9596b111cf1943acbd691039f7e93a5e-f2cdd3587ea849b1-01",
+    "id" : 205,
     "type" : "DocumentoSalvato",
-    "aggregateType" : "GESTORE_DOCUMENTI"
+    "aggregateType" : "GESTORE_DOCUMENTI",
+    "outbox-id" : "68776a7aa53c55ca5e59ebb1"
   },
   "value" : {
-    "_id" : {
-      "$oid" : "68765a92b83489c9700309b0"
-    },
-    "idRichiedente" : "fd515ffd-582f-4644-938a-e317d0705520",
-    "tipoRichiedente" : "SUPPORTO_INGRESSO",
-    "nomeDocumento" : {
-      "nome" : "IT10244503063_54N10.xml",
-      "tipologia" : "NC",
-      "hash" : "855ef2124e7abfa46a443866ea9c8dec2b0a7cc5"
-    },
-    "idDoc" : {
-      "storage" : "ECS",
-      "id" : "atmos-ecs/ecsrm1_scambio_svi/40e513f8-d177-4941-bd95-3a5886a7c155-e9431207-9a4a-4192-a4ea-3c0ed4982b9d",
-      "dimensione" : 1244
-    }
+    "_id" : null,
+    "idRichiedente" : null,
+    "tipoRichiedente" : "Placeholder-1",
+    "nomeDocumento" : null,
+    "idDoc" : null
   },
-  "key" : "491d6715-a462-48ca-9481-c9277692bbab"
+  "key" : "35ca000a-c873-4f26-bb70-4c2c23acdc7e"
 }, {
   "headers" : {
-    "traceparent" : "00-f42782216d874196a184bda8edee90a3-fabdef28bda64c70-01",
-    "id" : 744,
+    "traceparent" : "00-130a0dc804b44f91838954f36f3b89d3-57090254d4e64fd2-01",
+    "id" : 703,
     "type" : "DocumentoSalvato",
-    "aggregateType" : "GESTORE_DOCUMENTI"
+    "aggregateType" : "GESTORE_DOCUMENTI",
+    "outbox-id" : "68776a7aa53c55ca5e59ebb2"
   },
   "value" : {
-    "_id" : {
-      "$oid" : "68765a92b83489c9700309b1"
-    },
-    "idRichiedente" : "613dda08-bfee-4309-b2b6-43d6aee4357e",
-    "tipoRichiedente" : "SUPPORTO_INGRESSO",
-    "nomeDocumento" : {
-      "nome" : "IT10089227351_54N10.xml",
-      "tipologia" : "NC",
-      "hash" : "ae210c1dba8d7032f5bd472ad8cdf9ea18e8146d"
-    },
-    "idDoc" : {
-      "storage" : "ECS",
-      "id" : "atmos-ecs/ecsrm1_scambio_svi/5cbfdca4-11f5-4083-9694-66e13e578586-245f0773-3eaa-422a-bfff-8194fb8e2634",
-      "dimensione" : 8971
-    }
+    "_id" : null,
+    "idRichiedente" : null,
+    "tipoRichiedente" : "Placeholder-1",
+    "nomeDocumento" : null,
+    "idDoc" : null
   },
-  "key" : "5baac15a-a6ce-45e3-93e7-30aec19747e7"
+  "key" : "eb3ae7e4-690b-4b8b-a797-8ab0bd728c29"
 }, {
   "headers" : {
-    "traceparent" : "00-f7f594e68ff5427689c069c471cae7d4-39b598c714cd4e37-01",
-    "id" : 909,
+    "traceparent" : "00-5fb51d3d0bdb4425890f06eb29d5a6db-b4b51657223d488b-01",
+    "id" : 506,
     "type" : "DocumentoSalvato",
-    "aggregateType" : "GESTORE_DOCUMENTI"
+    "aggregateType" : "GESTORE_DOCUMENTI",
+    "outbox-id" : "68776a7aa53c55ca5e59ebb3"
   },
   "value" : {
-    "_id" : {
-      "$oid" : "68765a92b83489c9700309b2"
-    },
-    "idRichiedente" : "f1ddfb29-3cc4-476b-9861-1043932cf6b5",
-    "tipoRichiedente" : "SUPPORTO_INGRESSO",
-    "nomeDocumento" : {
-      "nome" : "IT10245039847_54N10.xml",
-      "tipologia" : "FA",
-      "hash" : "8a5d9e2480f39dafddbbb2d9393e6fb09b967552"
-    },
-    "idDoc" : {
-      "storage" : "ECS",
-      "id" : "atmos-ecs/ecsrm1_scambio_svi/8be8e786-2547-4d3f-af56-853825e4e93e-7b05cb69-ae2f-4de2-933c-9187992889e1",
-      "dimensione" : 659
-    }
+    "_id" : null,
+    "idRichiedente" : null,
+    "tipoRichiedente" : "Placeholder-1",
+    "nomeDocumento" : null,
+    "idDoc" : null
   },
-  "key" : "95a8fd9f-54a6-4727-8263-9693b7dd7167"
+  "key" : "b3736263-4fed-4164-877f-a2bbdfdcd9b7"
 }, {
   "headers" : {
-    "traceparent" : "00-e7b48e9cbe454cf487704c7e01c7f86a-f59fb2584445471c-01",
-    "id" : 513,
+    "traceparent" : "00-e125d010746642ec934e8dac7dda5dfd-35c09dc7379145fd-01",
+    "id" : 364,
     "type" : "DocumentoSalvato",
-    "aggregateType" : "GESTORE_DOCUMENTI"
+    "aggregateType" : "GESTORE_DOCUMENTI",
+    "outbox-id" : "68776a7aa53c55ca5e59ebb4"
   },
   "value" : {
-    "_id" : {
-      "$oid" : "68765a92b83489c9700309b3"
-    },
-    "idRichiedente" : "e3397ae3-f51c-4c58-b207-8cfab1a98b54",
-    "tipoRichiedente" : "SUPPORTO_INGRESSO",
-    "nomeDocumento" : {
-      "nome" : "IT10801419373_54N10.xml",
-      "tipologia" : "NC",
-      "hash" : "f5670b602786895e5bf4321671fee8f262c249a2"
-    },
-    "idDoc" : {
-      "storage" : "ECS",
-      "id" : "atmos-ecs/ecsrm1_scambio_svi/f91569be-15a8-40cc-8d0f-65099a44fe4f-af6e32fe-17ef-4e2d-b061-46c0394579cf",
-      "dimensione" : 9942
-    }
+    "_id" : null,
+    "idRichiedente" : null,
+    "tipoRichiedente" : "Placeholder-1",
+    "nomeDocumento" : null,
+    "idDoc" : null
   },
-  "key" : "9ddacfe3-a913-4dca-a67d-6d02aa2930b2"
+  "key" : "a3573e57-54b7-4d7c-896b-ea10f45e759a"
 }, {
   "headers" : {
-    "traceparent" : "00-d620c701a7314c06992779b2a14bc967-180abb6bf5764daf-01",
-    "id" : 12,
+    "traceparent" : "00-52c7691d6f2f4f0b8ea972937dc0ae00-4ca2d19364624a9a-01",
+    "id" : 964,
     "type" : "DocumentoSalvato",
-    "aggregateType" : "GESTORE_DOCUMENTI"
+    "aggregateType" : "GESTORE_DOCUMENTI",
+    "outbox-id" : "68776a7aa53c55ca5e59ebb5"
   },
   "value" : {
-    "_id" : {
-      "$oid" : "68765a92b83489c9700309b4"
-    },
-    "idRichiedente" : "521fdeb9-8d03-4f68-a093-95975ea9b159",
-    "tipoRichiedente" : "SUPPORTO_INGRESSO",
-    "nomeDocumento" : {
-      "nome" : "IT10872024740_54N10.xml",
-      "tipologia" : "NC",
-      "hash" : "83924f85a005fa4c26a0275c8e52d59efa6d70b4"
-    },
-    "idDoc" : {
-      "storage" : "ECS",
-      "id" : "atmos-ecs/ecsrm1_scambio_svi/593e75d1-d0ef-454c-8bbb-62b6a25a8569-adbf01be-1867-4715-85d3-45c74a5a50c2",
-      "dimensione" : 884
-    }
+    "_id" : null,
+    "idRichiedente" : null,
+    "tipoRichiedente" : "Placeholder-1",
+    "nomeDocumento" : null,
+    "idDoc" : null
   },
-  "key" : "adf37b4b-3624-4d2e-af06-88e5c22f6913"
+  "key" : "4e4f9e91-edbb-4fe4-8e50-4a9f1e88a910"
 }, {
   "headers" : {
-    "traceparent" : "00-45b224c021d04024bbb1d12b3bcccef9-a7dde373ca7e4ab2-01",
-    "id" : 253,
+    "traceparent" : "00-1b94285f5f744f66bde61df6a2a303ca-89f968dd03be47d5-01",
+    "id" : 196,
     "type" : "DocumentoSalvato",
-    "aggregateType" : "GESTORE_DOCUMENTI"
+    "aggregateType" : "GESTORE_DOCUMENTI",
+    "outbox-id" : "68776a7aa53c55ca5e59ebb6"
   },
   "value" : {
-    "_id" : {
-      "$oid" : "68765a92b83489c9700309b5"
-    },
-    "idRichiedente" : "7c1cebd9-4ee4-46fd-89be-fb0d9501affa",
-    "tipoRichiedente" : "SUPPORTO_INGRESSO",
-    "nomeDocumento" : {
-      "nome" : "IT10618786241_54N10.xml",
-      "tipologia" : "FA",
-      "hash" : "c81d0c5e97aef77247b534084ba51bfaa79cb4a6"
-    },
-    "idDoc" : {
-      "storage" : "ECS",
-      "id" : "atmos-ecs/ecsrm1_scambio_svi/9ec0bfc0-3196-42fc-abf8-7dc1f733fcaf-f1e3b227-3791-4235-83cd-b5dc1018fce0",
-      "dimensione" : 3823
-    }
+    "_id" : null,
+    "idRichiedente" : null,
+    "tipoRichiedente" : "Placeholder-1",
+    "nomeDocumento" : null,
+    "idDoc" : null
   },
-  "key" : "ff7e9f30-f2e8-4fbb-a239-717e9dba7c85"
+  "key" : "6fcbb609-bf58-4fd8-8cc1-14e65f65eac9"
 }, {
   "headers" : {
-    "traceparent" : "00-9b217d65f65943fa835d5a518bff405a-d2b1bec5978a4153-01",
-    "id" : 932,
+    "traceparent" : "00-e5eb17d0aadd4684a7b59ee3af7d72a5-f3c821aa3bdb4ad5-01",
+    "id" : 946,
     "type" : "DocumentoSalvato",
-    "aggregateType" : "GESTORE_DOCUMENTI"
+    "aggregateType" : "GESTORE_DOCUMENTI",
+    "outbox-id" : "68776a7aa53c55ca5e59ebb7"
   },
   "value" : {
-    "_id" : {
-      "$oid" : "68765a92b83489c9700309b6"
-    },
-    "idRichiedente" : "ecdee86f-9157-4607-895e-9b5e101a7ef6",
-    "tipoRichiedente" : "SUPPORTO_INGRESSO",
-    "nomeDocumento" : {
-      "nome" : "IT10610532426_54N10.xml",
-      "tipologia" : "FA",
-      "hash" : "4759ded12e13188bb9b315e50f0d2930b539aaa1"
-    },
-    "idDoc" : {
-      "storage" : "ECS",
-      "id" : "atmos-ecs/ecsrm1_scambio_svi/76c85acd-4ad7-4f96-9b3b-a20c88563051-197f711f-51a8-4013-be6f-54280fcf4d77",
-      "dimensione" : 2280
-    }
+    "_id" : null,
+    "idRichiedente" : null,
+    "tipoRichiedente" : "Placeholder-1",
+    "nomeDocumento" : null,
+    "idDoc" : null
   },
-  "key" : "8726f38e-64fe-485a-bc4b-5d9133661d40"
+  "key" : "a212dafe-7e8e-4da2-afac-835d2c820bec"
 }, {
   "headers" : {
-    "traceparent" : "00-b6d729c7ec6a4579a5abb1217a281c3b-cbfc40fc4a114451-01",
-    "id" : 956,
+    "traceparent" : "00-066999deb93e4f368d87bb334734bacf-5864b25bb3f74c49-01",
+    "id" : 210,
     "type" : "DocumentoSalvato",
-    "aggregateType" : "GESTORE_DOCUMENTI"
+    "aggregateType" : "GESTORE_DOCUMENTI",
+    "outbox-id" : "68776a7aa53c55ca5e59ebb8"
   },
   "value" : {
-    "_id" : {
-      "$oid" : "68765a92b83489c9700309b7"
-    },
-    "idRichiedente" : "4444e2a2-3f0b-43e0-905e-78ae7b34afb3",
-    "tipoRichiedente" : "SUPPORTO_INGRESSO",
-    "nomeDocumento" : {
-      "nome" : "IT10359692229_54N10.xml",
-      "tipologia" : "FA",
-      "hash" : "b98fdabae47098e7d451247edf102261cd29a1c2"
-    },
-    "idDoc" : {
-      "storage" : "ECS",
-      "id" : "atmos-ecs/ecsrm1_scambio_svi/6f3e8e0a-efed-4a6b-95fe-45ef6dbf8654-20e463e7-9088-47ce-a954-d46e40318bb8",
-      "dimensione" : 8876
-    }
+    "_id" : null,
+    "idRichiedente" : null,
+    "tipoRichiedente" : "Placeholder-1",
+    "nomeDocumento" : null,
+    "idDoc" : null
   },
-  "key" : "089b718e-d411-4e0f-9cb6-38099cf42b96"
+  "key" : "331fac9c-4f02-484a-a1f2-682438d3b51f"
 }, {
   "headers" : {
-    "traceparent" : "00-481690c04ee842399a7bf6fb59cee1ec-1f43b6529da146d4-01",
-    "id" : 406,
+    "traceparent" : "00-79598d5abd814c8f9993bf0b6516414f-4d273327ead24c20-01",
+    "id" : 893,
     "type" : "DocumentoSalvato",
-    "aggregateType" : "GESTORE_DOCUMENTI"
+    "aggregateType" : "GESTORE_DOCUMENTI",
+    "outbox-id" : "68776a7aa53c55ca5e59ebb9"
   },
   "value" : {
-    "_id" : {
-      "$oid" : "68765a92b83489c9700309b8"
-    },
-    "idRichiedente" : "5dfea017-de24-4f5b-ac57-7a50a8d99a80",
-    "tipoRichiedente" : "SUPPORTO_INGRESSO",
-    "nomeDocumento" : {
-      "nome" : "IT10590729042_54N10.xml",
-      "tipologia" : "DDT",
-      "hash" : "68a14a220f787504a574191414e8ac6b197c656a"
-    },
-    "idDoc" : {
-      "storage" : "ECS",
-      "id" : "atmos-ecs/ecsrm1_scambio_svi/436343f2-9737-41a2-b170-ba715382499b-db65a8ea-1465-4ccc-8f3e-d11ee09d0a36",
-      "dimensione" : 5743
-    }
+    "_id" : null,
+    "idRichiedente" : null,
+    "tipoRichiedente" : "Placeholder-1",
+    "nomeDocumento" : null,
+    "idDoc" : null
   },
-  "key" : "97ecc6aa-922b-4d88-96cf-d798446499e5"
+  "key" : "03ca7e64-601a-4fb9-8bf3-0e30529b669a"
 } ]
