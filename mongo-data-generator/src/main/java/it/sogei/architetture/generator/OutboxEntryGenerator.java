@@ -14,10 +14,7 @@ public class OutboxEntryGenerator {
 
         public static OutboxEntryModel generate() {
             OutboxEntryModel outboxEntry = new OutboxEntryModel();
-            OutboxEntryModel.Id id = new OutboxEntryModel.Id();
-            id.set$oid(new ObjectId().toHexString());
-
-            outboxEntry.set_id(id);
+            outboxEntry.set_id(new ObjectId());
             outboxEntry.setIdRichiedente(UUID.randomUUID());
             outboxEntry.setTipoRichiedente("SUPPORTO_INGRESSO");
 

@@ -1,5 +1,6 @@
 package it.sogei.architetture.generator;
 
+import it.sogei.architetture.models.GenericKafkaPayload;
 import it.sogei.architetture.models.KafkaEventModel;
 import it.sogei.architetture.models.OutboxEntryModel;
 
@@ -10,20 +11,21 @@ public class KafkaEventGenerator {
 
     public static KafkaEventModel generate(OutboxEntryModel outboxEntry) {
         KafkaEventModel model = new KafkaEventModel();
-        KafkaEventModel.Headers headers = generateHeader();
+        KafkaEventModel.Headers headers = generateHeader(outboxEntry.get_id().toHexString());
         model.setHeaders(headers);
-        model.setValue(outboxEntry);
+        model.setValue(new GenericKafkaPayload("Topic-5", ""));
         model.setKey(UUID.randomUUID().toString());
         return model;
     }
 
 
-    private static KafkaEventModel.Headers generateHeader() {
+    private static KafkaEventModel.Headers generateHeader(String outboxId) {
         KafkaEventModel.Headers header = new KafkaEventModel.Headers();
         header.setTraceparent(generateTraceparent());
         header.setId(new Random().nextInt(1000)); // oppure UUID.randomUUID().toString()
         header.setType("DocumentoSalvato");
         header.setAggregateType("GESTORE_DOCUMENTI");
+        header.setOutboxId(outboxId);
         return header;
     }
 

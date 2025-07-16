@@ -34,10 +34,10 @@ public class ApplicationRunner implements CommandLineRunner {
             entries.add(entry);
             KafkaEventModel event = KafkaEventGenerator.generate(entry);
             events.add(event);
-            this.kafkaEventProducer.sendMessage(event);
+            //this.kafkaEventProducer.sendMessage(event);
         }
 
-        JsonExporter.exportToJson(entries, "mongo_outbox_entries.json");
-        JsonExporter.exportToKafkaJson(events, "kafka_events.json");
+        JsonExporter.exportToJson(entries, "mongo_outbox_entries_5.json");
+        JsonExporter.exportToKafkaJson(events, "kafka_events_5.json");
     }
 }
